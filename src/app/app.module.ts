@@ -1,18 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-// Import FormsModule and HttpModule
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header/header.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
-  // Add FormsModule and HttpModule to imports array
   imports: [
     BrowserModule,
     FormsModule,
